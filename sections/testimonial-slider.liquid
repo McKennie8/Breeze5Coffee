@@ -1,68 +1,33 @@
 <div class="testimonial-slider">
-  <div class="testimonial-card">
-    <div class="testimonial-icon">
-      {% render 'icon-quotes' %}
+  {% for block in section.blocks %}
+    <div class="testimonial-card">
+      <div class="testimonial-icon">
+        {% render 'icon-quotes' %}
+      </div>
+      <div class="testimonial-text">
+        {{ block.settings.text }}
+      </div>
+      <div class="testimonial-image">
+        <img src="{{block.settings.image | img_url: '300x'}}">
+      </div>
+      <div class="testimonial-name">{{ block.settings.name }}</div>
     </div>
-    <div class="testimonial-text">
-      First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
-    </div>
-    <div class="testimonial-image">
-      <img src="img/user (2).jpg">
-    </div>
-    <div class="testimonial-name">Evelyn Ng</div>
-  </div>
+  {% endfor %}
 
-  <div class="testimonial-card">
-    <div class="testimonial-icon">
-      {% render 'icon-quotes' %}
+  {% comment %}
+    <div class="testimonial-card">
+      <div class="testimonial-icon">
+        {% render 'icon-quotes' %}
+      </div>
+      <div class="testimonial-text">
+        First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
+      </div>
+      <div class="testimonial-image">
+        <img src="img/user (2).jpg">
+      </div>
+      <div class="testimonial-name">Evelyn Ng</div>
     </div>
-    <div class="testimonial-text">
-      First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
-    </div>
-    <div class="testimonial-image">
-      <img src="img/user (2).jpg">
-    </div>
-    <div class="testimonial-name">Evelyn Ng</div>
-  </div>
-
-  <div class="testimonial-card">
-    <div class="testimonial-icon">
-      {% render 'icon-quotes' %}
-    </div>
-    <div class="testimonial-text">
-      First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
-    </div>
-    <div class="testimonial-image">
-      <img src="img/user (2).jpg">
-    </div>
-    <div class="testimonial-name">Evelyn Ng</div>
-  </div>
-
-  <div class="testimonial-card">
-    <div class="testimonial-icon">
-      {% render 'icon-quotes' %}
-    </div>
-    <div class="testimonial-text">
-      First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
-    </div>
-    <div class="testimonial-image">
-      <img src="img/user (2).jpg">
-    </div>
-    <div class="testimonial-name">Evelyn Ng</div>
-  </div>
-
-  <div class="testimonial-card">
-    <div class="testimonial-icon">
-      {% render 'icon-quotes' %}
-    </div>
-    <div class="testimonial-text">
-      First time purchase. Wanted to compliment you on the great coffee – especially Ethiopia ……..mmmmmmmm
-    </div>
-    <div class="testimonial-image">
-      <img src="img/user (2).jpg">
-    </div>
-    <div class="testimonial-name">Evelyn Ng</div>
-  </div>
+  {% endcomment %}
 </div>
 {% schema %}
 {

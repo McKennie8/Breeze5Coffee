@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "06de3f97-4e11-449e-8575-97f75cad8a3f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "title": "Direct Relations to Farmers",
+            "text": "<p>We have long-established relationships with family-farmers who practice sustainable, eco-friendly farming.  By doing business with family-farmers, we know that we are helping to improve life for producers, their families, and their communities.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "title": "Plant a Tree for Every 3rd Order",
+            "text": "<p>Instead of making more things and hoping for change, we exist to change the way things are made. That's what sustainability means to us. To make sure our planting efforts are as effective as possible, we partner with tree-planting projects and organisations like Tree Nation<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster.png",
+            "title": "Roasted by Hand in Oregon",
+            "text": "<p>We roast all of our beans.  The beans go through a number of stages including an extended phase (Malliard Reaction) where the beans go from green to tan to brown, inducing changes to the beans sugars, amino acids and carbohydrates – which translates into aroma, flavor and sweetness.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-0",
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-1",
+        "template--18075774353716__06de3f97-4e11-449e-8575-97f75cad8a3f-167700435960618a40-2"
+      ],
+      "settings": {
+        "title": "Our Promises 🤝",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "542f0768-e285-44f2-b07f-62a08d209a88": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You May Also Like 🧡",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1e131291-8273-48b4-8ea2-58c2b1500432": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "20c717cc-f00e-406d-b1fe-4e089448fbfe": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>sdfsfd<\/p>",
+            "name": "sdfsd",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "20c717cc-f00e-406d-b1fe-4e089448fbfe"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "06de3f97-4e11-449e-8575-97f75cad8a3f",
+    "542f0768-e285-44f2-b07f-62a08d209a88",
+    "1e131291-8273-48b4-8ea2-58c2b1500432"
+  ]
+}

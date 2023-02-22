@@ -112,10 +112,10 @@
       "settings": {
         "title": "Our Promises 🤝",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "half",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -153,28 +153,42 @@
         "padding_bottom": 36
       }
     },
-    "1e131291-8273-48b4-8ea2-58c2b1500432": {
-      "type": "testimonial-slider",
+    "b609e96d-ca20-4a71-88ea-0724c81d4d91": {
+      "type": "collapsible-content",
       "blocks": {
-        "20c717cc-f00e-406d-b1fe-4e089448fbfe": {
-          "type": "testimonial",
+        "template--18075774353716__b609e96d-ca20-4a71-88ea-0724c81d4d91-16770287945cdd1122-0": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>sdfsfd<\/p>",
-            "name": "sdfsd",
-            "image": "shopify:\/\/shop_images\/user_2.jpg"
+            "heading": "Shipping Times",
+            "icon": "truck",
+            "row_content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "20c717cc-f00e-406d-b1fe-4e089448fbfe"
+        "template--18075774353716__b609e96d-ca20-4a71-88ea-0724c81d4d91-16770287945cdd1122-0"
       ],
-      "settings": {}
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "right",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "06de3f97-4e11-449e-8575-97f75cad8a3f",
     "542f0768-e285-44f2-b07f-62a08d209a88",
-    "1e131291-8273-48b4-8ea2-58c2b1500432"
+    "b609e96d-ca20-4a71-88ea-0724c81d4d91"
   ]
 }

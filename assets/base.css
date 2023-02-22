@@ -3075,3 +3075,25 @@ details-disclosure > details {
     padding-top: 10px;
 }
 
+.coffee-info {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #DCA849;
+}
+.coffee-info svg {
+  height: 25px;
+  width: auto;
+}
+
+.coffee-info td {
+  /* border: 1px solid black; */
+}
+
+.coffee-info td:first-child {
+  width: 33%;
+}
+
+.coffee-info td:second-child {
+  width: 67%;
+}
+
